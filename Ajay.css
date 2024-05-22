@@ -1,4 +1,5 @@
 body, html {
+    position: absolute;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -6,11 +7,11 @@ body, html {
     background-color: tan;
 }
 .left-section {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 10%;
-    height: 100%;
+    height: 10000%;
     background-color: white;
 }
 .top-section {
@@ -43,48 +44,64 @@ body, html {
     left: 55%;
     color: black;
 }
-[name="insta"]{
+.Social{
     position: absolute;
     top: 30%;
     left: 2.5%;
+}
+[name="insta"]{
+    position: relative;
+    top: 30px;
+    left: 0%;
     width: 5%;
     height: 9%;
 }
-[name="mail"]{
-    position: absolute;
-    top: 50%;
-    left: 2.5%;
+.Social [name="mail"]{
+    position: relative;
+    top: 200px;
+    left: -5.2%;
     width: 5%;
     height: 9%;
 }
-[value="name"]{
-    position: absolute;
+.Content [value="name"]{
+    position: relative;
     font-family: "Salsa", cursive;
-    top: 40%;
-    left: 40%;
+    /* top: 40%;
+    left: 40%; */
+    top: 0px;
+    left: 0px;
     font-size: 400%;
 }
-[value="designation"]{
-    position: absolute;
+.Content [value="designation"]{
+    position: relative;
     font-family: "Salsa", cursive;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
+    top: -52px;
+    left: 140px;
     font-size: 200%;
 }
-[value="welcome"]{
-    position: absolute;
+.Content [value="welcome"]{
+    position: relative;
     font-family: "Salsa", cursive;
-    top: 35%;
-    left: 40%;
+    top: 50px;
+    left: 0px;
     font-size: 300%;
     color: white;
 }
-[value="quote"]{
-    position: absolute;
+.Content [value="quote"]{
+    position: relative;
     font-family: "Salsa", cursive;
-    top: 60%;
-    left: 40%;
+    /* top: 60%;
+    left: 40%; */
+    top: -30px;
+    left: 0px;
     font-size: 100%;
     color: white;
+}
+.Content{
+    position: absolute;
+    top: 28%;
+    left: 40%;
 }
 
