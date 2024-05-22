@@ -1,0 +1,24 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+
+p[value="1"]{
+  color: red;
+}
+p[value="2"]{
+  color: blue;
+}
+p[value="3"]{
+  color: orange;
+}
+p[value="4"]{
+  color: green;
+}
+p[value="5"]{
+  color: yellow;
+}
+/* p{
+  font-size: 20px;
+} */
+
